@@ -1,61 +1,69 @@
-# Road Maintenance Feedback System
+# Road Maintenance System
 
-A web application for reporting and tracking road maintenance issues.
+A comprehensive web application for reporting and tracking road maintenance issues in your community.
 
-## Project Structure
+## 🚀 Features
 
-```
-majorProject/
-├── backend/           # Node.js/Express backend
-└── roadMaintenance/   # React frontend
-```
+- **User Authentication**: Secure signup and login system
+- **Issue Reporting**: Easy-to-use interface for reporting road issues
+- **Dashboard**: Real-time analytics and issue tracking
+- **Interactive Maps**: Visual representation of reported issues
+- **Status Tracking**: Monitor the progress of reported issues
 
-## Features
-- User Authentication (Login/Signup)
-- Report Road Issues
-- Dashboard with Analytics
-- Issue Tracking System
+## 🛠️ Tech Stack
 
-## Tech Stack
-- Frontend: React, TailwindCSS, Chart.js
-- Backend: Node.js, Express, MongoDB
-- Authentication: JWT, bcrypt
+- **Frontend**: React.js, TailwindCSS, Chart.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT, bcrypt
+- **State Management**: React Context API
 
-## Setup Instructions
+## 📦 Installation
 
-### Backend Setup
-1. Navigate to backend directory:
+1. Clone the repository:
    ```bash
+   git clone https://github.com/Ayushaj0/majorProject.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   # Backend dependencies
    cd backend
-   ```
-2. Install dependencies:
-   ```bash
    npm install
-   ```
-3. Create .env file with:
-   ```
-   MONGO_URI=your_mongodb_uri_here
-   PORT=5000
-   JWT_SECRET=your_jwt_secret_here
-   ```
-4. Start server:
-   ```bash
-   npm start
+
+   # Frontend dependencies
+   cd ../roadMaintenance
+   npm install
    ```
 
-### Frontend Setup
-1. Navigate to roadMaintenance directory:
+3. Set up environment variables:
+   Create `.env` files in both backend and frontend directories following the `.env.example` templates.
+
+4. Start the application:
    ```bash
-   cd roadMaintenance
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start development server:
-   ```bash
+   # Start backend (from backend directory)
+   npm run dev
+
+   # Start frontend (from roadMaintenance directory)
    npm run dev
    ```
 
-## Author
-Ayush Raj
+## 🌟 Usage
+
+1. Register a new account or login
+2. Report road issues through the reporting form
+3. Track issue status through the dashboard
+4. View analytics and issue distribution
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+- Ayush Raj
+- GitHub: [@Ayushaj0](https://github.com/Ayushaj0)
