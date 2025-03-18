@@ -1,69 +1,92 @@
 # Road Maintenance System
 
-A comprehensive web application for reporting and tracking road maintenance issues in your community.
+A comprehensive web application for reporting and managing road maintenance issues in your community.
 
-## 🚀 Features
+## 🌟 Features
 
-- **User Authentication**: Secure signup and login system
-- **Issue Reporting**: Easy-to-use interface for reporting road issues
-- **Dashboard**: Real-time analytics and issue tracking
-- **Interactive Maps**: Visual representation of reported issues
-- **Status Tracking**: Monitor the progress of reported issues
+- User Authentication (Login/Signup)
+- Report road maintenance issues
+- Interactive Dashboard
+- Real-time issue tracking
+- Analytics and statistics
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-- **Frontend**: React.js, TailwindCSS, Chart.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT, bcrypt
-- **State Management**: React Context API
+### Frontend
+- React.js
+- TailwindCSS
+- Chart.js
+- React Router
+- Axios
 
-## 📦 Installation
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- bcrypt
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ayushaj0/majorProject.git
-   ```
+## 🚀 Getting Started
 
-2. Install dependencies:
-   ```bash
-   # Backend dependencies
-   cd backend
-   npm install
+### Prerequisites
+- Node.js
+- MongoDB
+- npm or yarn
 
-   # Frontend dependencies
-   cd ../roadMaintenance
-   npm install
-   ```
+### Installation
 
-3. Set up environment variables:
-   Create `.env` files in both backend and frontend directories following the `.env.example` templates.
+1. Clone the repository
+```bash
+git clone https://github.com/[your-username]/majorProject.git
+cd majorProject
+```
 
-4. Start the application:
-   ```bash
-   # Start backend (from backend directory)
-   npm run dev
+2. Install Backend Dependencies
+```bash
+cd backend
+npm install
+cp .env.example .env
+# Configure your .env file
+```
 
-   # Start frontend (from roadMaintenance directory)
-   npm run dev
-   ```
+3. Install Frontend Dependencies
+```bash
+cd ../roadMaintenance
+npm install
+```
 
-## 🌟 Usage
+4. Start Development Servers
+```bash
+# Backend (from backend directory)
+npm run dev
 
-1. Register a new account or login
-2. Report road issues through the reporting form
-3. Track issue status through the dashboard
-4. View analytics and issue distribution
+# Frontend (from roadMaintenance directory)
+npm run dev
+```
+
+## 📝 Environment Variables
+
+Create a `.env` file in the backend directory:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
 
 ## 👥 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📝 License
+## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 👤 Author
 
-- Ayush Raj
+Ayush Raj
 - GitHub: [@Ayushaj0](https://github.com/Ayushaj0)
